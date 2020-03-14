@@ -1,0 +1,44 @@
+.header {
+  margin: 0px 30px;
+  padding: 10px 20px;
+}
+.header img {
+    height: 180px;
+  }
+  @media screen and (min-width: 500px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    } 
+  }
+  @media screen and (min-width: 768px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 16px;
+    }
+  }
+  .count,.income {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s linear;
+  }
+  .count:hover,
+  .income:hover {
+    box-shadow: 5px 5px 10px gray;
+  }
+  

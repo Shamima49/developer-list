@@ -1,117 +1,5 @@
 var fakeData = [
   {
-    gender: "female",
-    name: "Mrs. Lina Fontai",
-    email: "lina.fontai@example.com",
-    dob: {
-      date: "1951-03-23T09:25:21.760Z",
-      age: 69
-    },
-    phone: "02-26-94-00-37",
-    picture: {
-      large: "https://randomuser.me/api/portraits/women/47.jpg",
-      medium: "https://randomuser.me/api/portraits/med/women/47.jpg",
-      thumbnail: "https://randomuser.me/api/portraits/thumb/women/47.jpg"
-    },
-    income: "12045"
-  },
-  {
-    gender: "male",
-    name: "Mr. Toyi Markai",
-    email: "troy.macrae@example.com",
-    dob: {
-      date: "1972-12-04T07:47:00.328Z",
-      age: 48
-    },
-    phone: "015242 29809",
-    picture: {
-      large: "https://randomuser.me/api/portraits/men/13.jpg",
-      medium: "https://randomuser.me/api/portraits/med/men/13.jpg",
-      thumbnail: "https://randomuser.me/api/portraits/thumb/men/13.jpg"
-    },
-    income: "22135"
-  },
-  {
-    gender: "male",
-    name: "Mr.Elilas Peraz",
-    email: "elias.perez@example.com",
-    dob: {
-      date: "1984-03-09T05:33:40.053Z",
-      age: 36
-    },
-    phone: "03-74-83-51-90",
-    picture: {
-      large: "https://randomuser.me/api/portraits/men/88.jpg",
-      medium: "https://randomuser.me/api/portraits/med/men/88.jpg",
-      thumbnail: "https://randomuser.me/api/portraits/thumb/men/88.jpg"
-    },
-    income: "44185"
-  },
-  {
-    gender: "male",
-    name: "Mr. Abu Ghani",
-    email: "gokhan.baturalp@example.com",
-    dob: {
-      date: "1972-11-08T01:34:46.449Z",
-      age: 48
-    },
-    phone: "(725)-224-1721",
-    picture: {
-      large: "https://randomuser.me/api/portraits/men/44.jpg",
-      medium: "https://randomuser.me/api/portraits/med/men/44.jpg",
-      thumbnail: "https://randomuser.me/api/portraits/thumb/men/44.jpg"
-    },
-    income: "66849"
-  },
-  {
-    gender: "male",
-    name: "Mr.Charles Robinson",
-    email: "charles.robinson@example.com",
-    dob: {
-      date: "1977-03-19T11:12:38.477Z",
-      age: 43
-    },
-    phone: "(975)-710-4431",
-    picture: {
-      large: "https://randomuser.me/api/portraits/men/29.jpg",
-      medium: "https://randomuser.me/api/portraits/med/men/29.jpg",
-      thumbnail: "https://randomuser.me/api/portraits/thumb/men/29.jpg"
-    },
-    income: "90145"
-  },
-  {
-    gender: "male",
-    name: "Mr.Walted Hower",
-    email: "walter.howard@example.com",
-    dob: {
-      date: "1965-08-06T14:21:29.887Z",
-      age: 55
-    },
-    phone: "09-6539-3756",
-    picture: {
-      large: "https://randomuser.me/api/portraits/men/2.jpg",
-      medium: "https://randomuser.me/api/portraits/med/men/2.jpg",
-      thumbnail: "https://randomuser.me/api/portraits/thumb/men/2.jpg"
-    },
-    income: "10045"
-  },
-  {
-    gender: "female",
-    name: "Miss Natalia Lopez",
-    email: "natalie.lopez@example.com",
-    dob: {
-      date: "1991-07-24T23:10:19.601Z",
-      age: 29
-    },
-    phone: "(848)-066-8902",
-    picture: {
-      large: "https://randomuser.me/api/portraits/women/43.jpg",
-      medium: "https://randomuser.me/api/portraits/med/women/43.jpg",
-      thumbnail: "https://randomuser.me/api/portraits/thumb/women/43.jpg"
-    },
-    income: "82545"
-  },
-  {
     gender: "male",
     name: "Mr. Tomas Calvo",
     email: "tomas.calvo@example.com",
@@ -238,6 +126,119 @@ var fakeData = [
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/11.jpg"
     },
     income: "648001"
-  }
+  },
+  {
+    gender: "female",
+    name: "Mrs. Lina Fontai",
+    email: "lina.fontai@example.com",
+    dob: {
+      date: "1951-03-23T09:25:21.760Z",
+      age: 69
+    },
+    phone: "02-26-94-00-37",
+    picture: {
+      large: "https://randomuser.me/api/portraits/women/47.jpg",
+      medium: "https://randomuser.me/api/portraits/med/women/47.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/women/47.jpg"
+    },
+    income: "12045"
+  },
+  {
+    gender: "male",
+    name: "Mr. Toyi Markai",
+    email: "troy.macrae@example.com",
+    dob: {
+      date: "1972-12-04T07:47:00.328Z",
+      age: 48
+    },
+    phone: "015242 29809",
+    picture: {
+      large: "https://randomuser.me/api/portraits/men/13.jpg",
+      medium: "https://randomuser.me/api/portraits/med/men/13.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+    },
+    income: "22135"
+  },
+  {
+    gender: "male",
+    name: "Mr.Elilas Peraz",
+    email: "elias.perez@example.com",
+    dob: {
+      date: "1984-03-09T05:33:40.053Z",
+      age: 36
+    },
+    phone: "03-74-83-51-90",
+    picture: {
+      large: "https://randomuser.me/api/portraits/men/88.jpg",
+      medium: "https://randomuser.me/api/portraits/med/men/88.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/men/88.jpg"
+    },
+    income: "44185"
+  },
+  {
+    gender: "male",
+    name: "Mr. Abu Ghani",
+    email: "gokhan.baturalp@example.com",
+    dob: {
+      date: "1972-11-08T01:34:46.449Z",
+      age: 48
+    },
+    phone: "(725)-224-1721",
+    picture: {
+      large: "https://randomuser.me/api/portraits/men/44.jpg",
+      medium: "https://randomuser.me/api/portraits/med/men/44.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+    },
+    income: "66849"
+  },
+  {
+    gender: "male",
+    name: "Mr.Charles Robinson",
+    email: "charles.robinson@example.com",
+    dob: {
+      date: "1977-03-19T11:12:38.477Z",
+      age: 43
+    },
+    phone: "(975)-710-4431",
+    picture: {
+      large: "https://randomuser.me/api/portraits/men/29.jpg",
+      medium: "https://randomuser.me/api/portraits/med/men/29.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/men/29.jpg"
+    },
+    income: "90145"
+  },
+  {
+    gender: "male",
+    name: "Mr.Walted Hower",
+    email: "walter.howard@example.com",
+    dob: {
+      date: "1965-08-06T14:21:29.887Z",
+      age: 55
+    },
+    phone: "09-6539-3756",
+    picture: {
+      large: "https://randomuser.me/api/portraits/men/2.jpg",
+      medium: "https://randomuser.me/api/portraits/med/men/2.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/men/2.jpg"
+    },
+    income: "10045"
+  },
+  {
+    gender: "female",
+    name: "Miss Natalia Lopez",
+    email: "natalie.lopez@example.com",
+    dob: {
+      date: "1991-07-24T23:10:19.601Z",
+      age: 29
+    },
+    phone: "(848)-066-8902",
+    picture: {
+      large: "https://randomuser.me/api/portraits/women/43.jpg",
+      medium: "https://randomuser.me/api/portraits/med/women/43.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/women/43.jpg"
+    },
+    income: "82545"
+  },
 ];
+  
 export default fakeData;
